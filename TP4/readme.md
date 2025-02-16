@@ -9,11 +9,13 @@ Replace <exercise_number> with the number of the exercise you want to compile (1
 
 Example
 To compile and run Exercise 1:
-
 g++ main.cpp -o main -DEXO=1
 ./main
-To compile and run Exercise 2:
 
+
+To compile and run Exercise 2:
 g++ main.cpp -o main -DEXO=2
 ./main
+
+
 And so on for other exercises.
