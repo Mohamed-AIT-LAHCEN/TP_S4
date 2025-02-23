@@ -1,0 +1,24 @@
+CXX = g++
+CXXFLAGS = -std=c++11 -Wall
+
+# Targets for each exercise
+exo1: exo1_palindrome.cpp
+	$(CXX) $(CXXFLAGS) -o exo1 exo1_palindrome.cpp
+
+exo2: exo2_word_frequency.cpp
+	$(CXX) $(CXXFLAGS) -o exo2 exo2_word_frequency.cpp
+
+exo3: exo3_rle.cpp
+	$(CXX) $(CXXFLAGS) -o exo3 exo3_rle.cpp
+
+exo4: exo4_top_frequent_words.cpp
+	$(CXX) $(CXXFLAGS) -o exo4 exo4_top_frequent_words.cpp
+
+exo5: exo5_sort_by_length.cpp
+	$(CXX) $(CXXFLAGS) -o exo5 exo5_sort_by_length.cpp
+
+exo6: exo6_regex_email.cpp
+	$(CXX) $(CXXFLAGS) -o exo6 exo6_regex_email.cpp
+
+# Default target (builds all exercises)
+all: exo1 exo2 exo3 exo4 exo5 exo6
