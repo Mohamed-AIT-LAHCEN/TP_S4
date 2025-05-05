@@ -1,0 +1,2 @@
+C++ est un langage de programmation
+Le C++ est puissant

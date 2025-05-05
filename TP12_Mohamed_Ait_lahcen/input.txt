@@ -1,0 +1,7 @@
+Bonjour le monde
+C++ est un langage de programmation
+Python est aussi un langage
+Java est un autre langage
+Le C++ est puissant
+La programmation est amusante
+Les algorithmes sont importants 
